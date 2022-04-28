@@ -12,7 +12,7 @@ import streamlit.components.v1 as components
 import requests  # pip install requests
 import plotly.express as px
 
-import pandas as pd
+#import pandas as pd
 #import numpy as np
 
 #import plotly.graph_objects as go 
@@ -31,9 +31,9 @@ page_names = ['Ángel Moras Conde', 'Antonio Pérez Rocha', 'Armando Nava Cedill
 page = st.radio('Navegación', page_names, index = 0)
 #st.write("**La variable 'page' returns:**", page)
 
-df = pd.read_excel("NDR_PC-2.xlsx")
-st.title("Datos")
-st.write(df)
+#df = pd.read_excel("NDR_PC-2.xlsx")
+#st.title("Datos")
+#st.write(df)
 
 #1                    
 if page == 'Ángel Moras Conde':
